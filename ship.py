@@ -35,3 +35,6 @@ class Ship():
     def blitme(self):
         """ Draw the sheep in current possition"""
         self.screen.blit(self.image, self.rect)
+    def center_ship(self):
+        # Set ship in bottom center
+        self.center = self.screen_rect.centerx
